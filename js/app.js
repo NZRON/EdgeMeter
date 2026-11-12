@@ -23,7 +23,7 @@ themeBtn.addEventListener('click', () => {
 });
 
 function updateThemeIcon(theme) {
-    themeBtn.textContent = theme === 'dark' ? '✨' : '☀️';
+    themeBtn.textContent = theme === 'dark' ? '☀️' : '✨';
 }
 
 const accountDropdownBtn = document.getElementById('accountDropdownBtn');
